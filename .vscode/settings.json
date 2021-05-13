@@ -1,0 +1,12 @@
+{
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 10 versions"]
+}

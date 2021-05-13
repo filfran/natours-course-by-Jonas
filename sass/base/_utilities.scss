@@ -1,0 +1,36 @@
+.u-flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.u-flex-stories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.u-flex-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem;
+
+  @include respond(tab-port) {
+    margin-bottom: 5rem;
+  }
+}
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem;
+
+  @include respond(tab-port) {
+    margin-bottom: 3rem;
+  }
+}
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem;
+}
